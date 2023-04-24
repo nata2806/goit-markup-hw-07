@@ -345,13 +345,17 @@ body {
 
 .customers-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  gap: 72px 16px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
 .customers-item {
-  width: 168px;
+  width: calc((100% - 16px) / 2);
+  min-width: 137px;
   height: 88px;
-  text-align: -webkit-match-parent;
+  /* align-items: center;
+  text-align: -webkit-match-parent; */
 }
 .customers-link {
   width: 100%;
@@ -359,7 +363,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: 8e8F99;
+  color: #8e8f99;
   border: 1px solid hsl(235, 5%, 58%);
   border-radius: 4px;
 
