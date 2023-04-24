@@ -1,6 +1,13 @@
 @media screen and (min-width: 428px) {
   .container {
+    min-width: 428px;
+  }
+  .hero {
     width: 428px;
+  }
+  .block {
+    width: 396px;
+    justify-content: center;
   }
   .team-item {
     justify-content: center;
@@ -14,27 +21,27 @@
   .container {
     max-width: 768px;
   }
+  .hero {
+    width: 768px;
+  }
+
+  .section-item {
+    display: flex;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .block {
+    max-width: 356px;
+  }
+  .section-title {
+    text-align: start;
+  }
   .title {
     font-size: 56px;
     line-height: 1.07;
     width: 496px;
     margin-bottom: 36px;
-  }
-  .hero {
-    max-width: 768px;
-  }
-  .section-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 72px 16px;
-  }
-  .block {
-    max-width: 356px;
-    flex-basis: calc((100%-16px) / 2);
-  }
-
-  .section-title {
-    text-align: start;
   }
 
   .our-team > .container {
