@@ -1,0 +1,17 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .team-item li {
+    flex-basis: calc((100%-30px) / 2);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+  }
+}
