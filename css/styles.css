@@ -279,7 +279,7 @@ body {
   gap: 72px;
 }
 .team-item li {
-  width: 264px;
+  flex-basis: 100%;
 }
 .window {
   background-color: #ffffff;
@@ -343,13 +343,14 @@ body {
 
 .customers-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: -72px;
+  margin-right: -16px;
 }
 .customers-item {
-  width: 168px;
-  height: 88px;
-  text-align: -webkit-match-parent;
+  flex-basis: calc(100% - 16px) / 2;
+  margin-bottom: 72px;
+  margin-right: 16px;
 }
 .customers-link {
   width: 100%;
@@ -381,8 +382,6 @@ body {
 .customers-link:focus {
   border: 1px solid rgba(64, 75, 191, 1);
 }
-/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
- */
 
 /* -------------PORTFOLIO ------------------*/
 
