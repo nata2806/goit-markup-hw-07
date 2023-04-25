@@ -1,37 +1,38 @@
 @media screen and (min-width: 428px) {
-  .container {
-    min-width: 428px;
+  .container {min-width: 428px;
   }
   .hero {
     width: 428px;
   }
-  .block {
+.block {
     width: 396px;
     justify-content: center;
-  }
-  .team-item {
+  }  .team-item {
     justify-content: center;
   }
   .title {
     font-size: 36px;
     width: 320px;
   }
-  .customers-list {
+.customers-list {
     justify-content: center;
   }
   .customers-item {
     max-width: 190px;
-    height: 88px;
-  }
-}
+    height: 88px;}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-  .hero {
-    width: 768px;
+  .title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 36px;
   }
-
+  .hero {
+    max-width: 768px;
+  }
   .section-item {
     display: flex;
     gap: 72px 24px;
@@ -40,17 +41,18 @@
   }
   .block {
     max-width: 356px;
+    flex-basis: calc((100%-16px) / 2);
   }
+
   .section-title {
     text-align: start;
   }
-  .title {
+.title {
     font-size: 56px;
     line-height: 1.07;
     width: 496px;
     margin-bottom: 36px;
   }
-
   .our-team > .container {
     width: 582px;
   }
@@ -62,7 +64,7 @@
     column-gap: 24px;
     justify-content: center;
   }
-  .customers-list {
+.customers-list {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -71,9 +73,8 @@
     width: 168px;
     height: 88px;
     /* text-align: -webkit-match-parent; */
-  }
-}
-@media screen and (min-width: 1158px) {
+  }}
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
   }
@@ -144,7 +145,7 @@
   .acttivity-size {
     padding-bottom: 120px;
   }
-  /* .customers-list {
+/* .customers-list {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -153,5 +154,4 @@
     width: 168px;
     height: 88px;
     text-align: -webkit-match-parent;
-  } */
-}
+  } */}
