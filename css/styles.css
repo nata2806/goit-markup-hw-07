@@ -343,7 +343,6 @@ body {
 
 .customers-list {
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
   margin-bottom: -72px;
   margin-right: -16px;
@@ -352,7 +351,6 @@ body {
   flex-basis: calc(100% - 16px) / 2;
   margin-bottom: 72px;
   margin-right: 16px;
-=======
   justify-content: center;
   gap: 24px;
 }
@@ -360,7 +358,6 @@ body {
   width: 168px;
   height: 88px;
   text-align: -webkit-match-parent;
->>>>>>> parent of e70b400 (2504)
 }
 .customers-link {
   width: 100%;
