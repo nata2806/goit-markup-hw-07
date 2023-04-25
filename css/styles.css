@@ -278,9 +278,9 @@ body {
   flex-wrap: wrap;
   gap: 72px;
 }
-.team-item li {
-  flex-basis: 100%;
-}
+/* .team-item li {
+  width: 264px;
+} */
 .window {
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
