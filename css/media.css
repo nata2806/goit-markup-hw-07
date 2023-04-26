@@ -2,6 +2,9 @@
   .container {
     min-width: 428px;
   }
+  .header-logo {
+    margin-right: 76px;
+  }
   .hero {
     width: 428px;
     background-image: linear-gradient(
