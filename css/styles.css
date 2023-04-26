@@ -102,6 +102,22 @@ body {
   margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.open-menu-btn {
+  display: flex;
+}
+
+.btn {
+  border: none;
+  outline: none;
+}
+.icon-mob-menu {
+  stroke: var(--main-title-color);
+}
 /* .header-item {
   font-size: 16px;
   line-height: 1.5;
@@ -138,9 +154,7 @@ body {
   color: #404bbf;
   cursor: pointer;
 }
-.header-container {
-  display: flex;
-}
+
 .header-list {
   display: flex;
   gap: 40px;
