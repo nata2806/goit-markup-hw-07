@@ -240,8 +240,7 @@ body {
   display: none;
 }
 .block {
-  width: 396px;
-
+  width: 320px;
   margin-bottom: 72px;
 }
 
@@ -276,6 +275,7 @@ body {
 .team-item {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
 }
 /* .team-item li {
@@ -344,8 +344,10 @@ body {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
+  min-width: 320px;
   margin-bottom: -72px;
   margin-right: -16px;
+  justify-content: center;
 }
 .customers-item {
   flex-basis: calc(100% - 16px) / 2;
@@ -355,7 +357,7 @@ body {
   gap: 24px;
 }
 .customers-item {
-  width: 168px;
+  width: 190px;
   height: 88px;
   text-align: -webkit-match-parent;
 }
