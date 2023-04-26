@@ -102,7 +102,7 @@ body {
   margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-item {
+/* .header-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -141,18 +141,19 @@ body {
 .header-container {
   display: flex;
 }
-
 .header-list {
   display: flex;
   gap: 40px;
 }
-
 .header-navigation {
   display: flex;
   align-items: center;
   margin-right: auto;
+} */
+.header-list,
+.adress {
+  display: none;
 }
-
 .current {
   position: relative;
 }

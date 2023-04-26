@@ -24,7 +24,7 @@
   <body>
     <!------------------- HEADER ------------------------>
 
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="list header-navigation">
           <a class="logo link header-logo"
@@ -42,6 +42,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mob-open-btn" data-menu-open type="button">
+          <svg class="icon-mob-mnu" wight="32px" height="22px">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
         <address class="adress">
           <ul class="list header-list">
             <li class="header-item">
@@ -57,7 +62,7 @@
           </ul>
         </address>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!------------- HERO --------------->
@@ -136,13 +141,25 @@
           <h2 class="description">What are we doing</h2>
           <ul class="list activity">
             <li>
-              <img src="./images/img_1.jpg" alt="pic1" />
+              <img
+                srcset="./images/img2x_1.jpg 2x"
+                src="./images/img_1.jpg"
+                alt="pic1"
+              />
             </li>
             <li>
-              <img src="./images/img_2.jpg" alt="pic2" />
+              <img
+                srcset="./images/img2x_2.jpg 2x"
+                src="./images/img_2.jpg"
+                alt="pic2"
+              />
             </li>
             <li>
-              <img src="./images/img_3.jpg" alt="pic3" />
+              <img
+                srcset="./images/img2x_3.jpg 2x"
+                src="./images/img_3.jpg"
+                alt="pic3"
+              />
             </li>
           </ul>
         </div>
@@ -156,6 +173,7 @@
           <ul class="list team-item">
             <li class="window">
               <img
+                srcset="./images/img2x-1.jpg 2x"
                 src="./images/img-1.jpg"
                 alt="marc"
                 width="264"
@@ -197,6 +215,7 @@
             </li>
             <li class="window">
               <img
+                srcset="./images/img2x-2.jpg 2x"
                 src="./images/img-2.jpg"
                 alt="tom"
                 width="264"
@@ -238,6 +257,7 @@
             </li>
             <li class="window">
               <img
+                srcset="./images/img2x-3.jpg 2x"
                 src="./images/img-3.jpg"
                 alt="camila"
                 width="264"
@@ -279,6 +299,7 @@
             </li>
             <li class="window">
               <img
+                srcset="./images/img2x-3.jpg 2x"
                 src="./images/img-4.jpg"
                 alt="daniel"
                 width="264"
