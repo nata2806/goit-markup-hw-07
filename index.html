@@ -64,27 +64,30 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
-        <button class="close-menu-btn mob-btn" type="button" data-menu-close>
-          <svg width="8px" height="8px">
-            <use href="./images/close.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-        </button>
-        <nav class="mobile-navigation list">
-          <ul class="mob-menu-list list">
-            <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="./index.html">Studio</a>
-            </li>
-            <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-menu-container">
+          <button class="close-menu-btn mob-btn" type="button" data-menu-close>
+            <svg width="8px" height="8px">
+              <use href="./images/close.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+          <nav class="mobile-navigation list">
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div>
           <address class="mob-adress">
             <ul class="list menu-mob-list">
@@ -610,5 +613,6 @@
       </div>
     </div>
     <script src="./js/modal"></script>
+    <script src="./js/menu"></script>
   </body>
 </html>
