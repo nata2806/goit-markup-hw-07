@@ -309,10 +309,19 @@ body {
   display: none;
 }
 .block {
-  width: 320px;
-  margin-bottom: 72px;
+  width: 100%;
 }
+.section-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 72px;
 
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
