@@ -170,8 +170,8 @@ body {
 }
 .soc-team-list {
   display: flex;
-  justify-content: start;
-  gap: 30px;
+  justify-content: center;
+  gap: 12%;
 }
 .mob-menu-link {
   font-weight: 700;
@@ -602,13 +602,22 @@ body {
 }
 .footer-wrap {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 72px;
 }
-.footer-box {
+.logo-footer {
+  align-items: center;
+  text-align: center;
+}
+
+/* .footer-box {
   margin-right: 120px;
-}
-.soc-media {
+} */
+/* .soc-media {
   margin-right: 80px;
-}
+} */
 .footer-description {
   font-size: 16px;
   line-height: 1.5;
@@ -625,9 +634,7 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.soc-media {
-  margin-right: 80px;
-}
+
 .footer-soc-list {
   display: flex;
   justify-content: center;
@@ -644,11 +651,12 @@ body {
   margin-top: 0em;
 }
 .email-input {
-  margin-right: 24px;
+  /* margin-right: 24px; */
   color: var(--second-title-color);
   border-color: var(--second-title-color);
   transition: border var(--time-transition-duration)
     var(--transition-timing-function);
+  padding-bottom: 16px;
 }
 .input {
   background: transparent;

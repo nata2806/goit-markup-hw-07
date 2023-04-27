@@ -40,6 +40,12 @@
     max-width: 396px;
     justify-content: center;
   }
+  @media screen and (max-width: 767px) {
+    .footer .logo {
+      display: block;
+      text-align: center;
+    }
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -78,16 +84,16 @@
     font-style: normal;
   }
   .contact-list {
-    display: flex;
     flex-direction: column;
-    gap: 12px;
   }
+
   .contact-item {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17px;
     letter-spacing: 0.04em;
     color: #434455;
+    margin-bottom: 12px;
   }
   .contact {
     color: var(--list);
@@ -113,11 +119,6 @@
     display: flex;
     align-items: center;
     margin-right: auto;
-  }
-  .header-item {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
 
   .hero {
@@ -190,6 +191,7 @@
     max-width: 1158px;
   }
   .contact-list {
+    display: flex;
     flex-direction: row;
     gap: 40px;
   }
