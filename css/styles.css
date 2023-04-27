@@ -591,8 +591,10 @@ body {
   gap: 72px;
 }
 .logo-footer {
-  align-items: center;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  text-align: center; */
 }
 
 /* .footer-box {
@@ -602,6 +604,7 @@ body {
   margin-right: 80px;
 } */
 .footer-description {
+  text-align: start;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

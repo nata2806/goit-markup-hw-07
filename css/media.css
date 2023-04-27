@@ -131,7 +131,7 @@
     content: "";
     display: block;
     left: 0;
-    margin-top: 25px;
+    margin-top: 23px;
     width: 100%;
     border-radius: 2px;
     background-color: transparent;
@@ -207,6 +207,9 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+  .current::after {
+    margin-top: 17px;
   }
   .contact-list {
     display: flex;
