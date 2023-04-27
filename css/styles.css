@@ -131,6 +131,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.no-scroll {
+  overflow: hidden;
+}
 .close-menu-btn {
   display: flex;
   margin-left: auto;
@@ -597,12 +600,6 @@ body {
   text-align: center; */
 }
 
-/* .footer-box {
-  margin-right: 120px;
-} */
-/* .soc-media {
-  margin-right: 80px;
-} */
 .footer-description {
   text-align: start;
   font-size: 16px;
@@ -646,14 +643,14 @@ body {
   border-color: var(--second-title-color);
   transition: border var(--time-transition-duration)
     var(--transition-timing-function);
-  padding-bottom: 16px;
 }
 .input {
   background: transparent;
-  min-width: 216px;
+  min-width: 290px;
   min-height: 40px;
   padding: 8px 16px;
   border: 1px solid;
+  opacity: 0.3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   cursor: pointer;
@@ -661,7 +658,7 @@ body {
 .email-input::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 2;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
