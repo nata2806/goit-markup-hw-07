@@ -208,7 +208,7 @@ body {
 }
 
 .header-list,
-.adress {
+.contact-list {
   display: none;
 }
 .current {
@@ -647,8 +647,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe {
-  display: block;
-  margin-top: 0em;
+  /* display: block;
+  margin-top: 0em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 .email-input {
   /* margin-right: 24px; */

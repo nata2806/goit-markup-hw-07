@@ -80,20 +80,17 @@
     background-color: transparent;
   }
   .adress {
-    display: flex;
     font-style: normal;
   }
   .contact-list {
+    display: flex;
     flex-direction: column;
   }
 
   .contact-item {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17px;
-    letter-spacing: 0.04em;
-    color: #434455;
-    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   .contact {
     color: var(--list);
