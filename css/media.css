@@ -2,9 +2,7 @@
   .container {
     min-width: 428px;
   }
-  .header-logo {
-    margin-right: 76px;
-  }
+
   .hero {
     width: 428px;
     background-image: linear-gradient(
@@ -41,6 +39,9 @@
   .container {
     min-width: 768px;
   }
+  .open-menu-btn {
+    display: none;
+  }
   .header-item {
     font-size: 16px;
     line-height: 1.5;
@@ -66,7 +67,21 @@
     background-color: transparent;
   }
   .adress {
+    display: flex;
     font-style: normal;
+  }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17px;
+    letter-spacing: 0.04em;
+    color: #434455;
   }
   .contact {
     color: var(--list);
@@ -78,6 +93,11 @@
   }
   .header-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-logo {
+    margin-right: 76px;
   }
   .header-list {
     display: flex;
@@ -88,14 +108,10 @@
     align-items: center;
     margin-right: auto;
   }
-  .header-container {
-    display: flex;
-  }
-
-  .header-navigation {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
+  .header-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 
   .hero {
