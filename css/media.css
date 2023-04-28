@@ -205,7 +205,19 @@
     column-gap: 24px;
     justify-content: center;
   }
-
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 768px;
+    gap: 24px;
+    margin: 0;
+  }
+  .customers-item {
+    width: 168px;
+    height: 88px;
+    margin: 0;
+    /* text-align: -webkit-match-parent; */
+  }
   /* .footer-menu {
     display: flex;
     gap: 24px;
@@ -369,12 +381,7 @@
     gap: 24px;
     margin: 0;
   }
-  .customers-item {
-    width: 168px;
-    height: 88px;
-    margin: 0;
-    /* text-align: -webkit-match-parent; */
-  }
+
   .footer-section {
     min-width: 1158px;
     background: var(--main-title-color);

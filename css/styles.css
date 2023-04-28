@@ -584,8 +584,8 @@ body {
 /* ---------------FOOTER------------------ */
 .footer-section {
   background: var(--main-title-color);
-  padding-top: 100px;
-  padding-bottom: 132px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .footer-wrap {
   display: flex;
@@ -618,9 +618,7 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-/* .footer-box {
-  margin-bottom: 72px;
-} */
+
 .footer-soc-list {
   display: flex;
   justify-content: center;
