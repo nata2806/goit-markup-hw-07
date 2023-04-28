@@ -290,7 +290,10 @@
   .header-logo {
     margin-right: 76px;
   }
-  .header-list {
+  /* .header-list {
+    margin-right: auto;
+  } */
+  .header-navigation {
     margin-right: auto;
   }
   .hero {
