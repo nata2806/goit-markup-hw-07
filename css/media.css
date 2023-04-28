@@ -372,9 +372,7 @@
     padding-bottom: 120px;
     display: flex;
   }
-  .our-team {
-    min-width: 1440px;
-  }
+
   .customers-list {
     display: flex;
     max-width: 1128px;
