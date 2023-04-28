@@ -4,7 +4,6 @@
   }
 
   .hero {
-    width: 428px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -57,7 +56,10 @@
   .container {
     max-width: 768px;
   }
-
+  .hero {
+    height: 436px;
+    max-width: 768px;
+  }
   .open-menu-btn {
     display: none;
   }
@@ -260,6 +262,11 @@
   .container {
     max-width: 1158px;
   }
+  .hero {
+    height: 600px;
+    max-width: 1440px;
+    padding: 188px 0;
+  }
   .current::after {
     margin-top: 17px;
   }
@@ -295,10 +302,6 @@
     line-height: 1.07;
     width: 496px;
     margin-bottom: 48px;
-  }
-  .hero {
-    min-width: 1158px;
-    padding: 188px 0;
   }
 
   .icon-box {
@@ -368,7 +371,7 @@
     min-width: 1158px;
     background: var(--main-title-color);
     padding-top: 100px;
-    padding-bottom: 132px;
+    padding-bottom: 100px;
   }
   .footer-wrap {
     display: flex;

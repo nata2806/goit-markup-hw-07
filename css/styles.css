@@ -229,8 +229,9 @@ body {
   background-repeat: no-repeat;
 
   text-align: center;
+  height: 432px;
   max-width: 428px;
-  padding: 112px 0;
+  padding: 96px 0;
   margin: 0 auto;
 }
 
