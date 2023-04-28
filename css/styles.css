@@ -726,7 +726,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--time-transition-duration)
     var(--transition-timing-function);
-  /* min-width: 408px; */
+  min-width: 300px;
   padding: 72px 24px 24px;
   background: #fcfcfc;
   border: none;
