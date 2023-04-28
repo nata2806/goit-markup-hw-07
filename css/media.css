@@ -206,17 +206,22 @@
     justify-content: center;
   }
 
-  .footer-menu {
+  /* .footer-menu {
     display: flex;
     gap: 24px;
-  }
+  } */
   .footer-box {
     max-width: 264px;
     margin-bottom: 0;
   }
-  /* .footer-wrap {
-    margin-left: 156px;
-  } */
+  .footer-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    text-align: left;
+    align-items: start;
+    padding: 0 108px;
+  }
   /* .footer-description {
     text-align: center;
   } */
