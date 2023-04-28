@@ -131,7 +131,6 @@
   .current {
     position: relative;
   }
-
   .current::after {
     position: absolute;
     content: "";
@@ -204,19 +203,25 @@
     column-gap: 24px;
     justify-content: center;
   }
+
+  .footer-menu {
+    display: flex;
+    gap: 24px;
+  }
   .footer-box {
     max-width: 264px;
+    margin-bottom: 0;
   }
+  /* .footer-wrap {
+    margin-left: 156px;
+  } */
   /* .footer-description {
     text-align: center;
   } */
   .soc-media {
     max-width: 208px;
   }
-  .footer-menu {
-    display: flex;
-    /* gap: 24px; */
-  }
+
   .logo-footer,
   .social,
   .subscribe-div {
@@ -234,7 +239,7 @@
     display: flex;
     margin-top: 0em;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
   }
   .input {
     min-width: 264px;
