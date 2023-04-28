@@ -359,12 +359,15 @@
 
   .customers-list {
     display: flex;
-    max-width: 1128px;
-    /* gap: 24px; */
+    flex-wrap: wrap;
+    max-width: 1158px;
+    gap: 24px;
+    margin: 0;
   }
   .customers-item {
     width: 168px;
     height: 88px;
+    margin: 0;
     /* text-align: -webkit-match-parent; */
   }
   .footer-section {
