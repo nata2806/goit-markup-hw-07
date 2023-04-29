@@ -173,8 +173,18 @@ body {
 }
 .soc-team-list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 12%;
+}
+
+.menu-mob-list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-logo);
 }
 .mob-menu-link {
   font-weight: 700;
