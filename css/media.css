@@ -1,6 +1,6 @@
 @media screen and (min-width: 428px) {
   .container {
-    min-width: 428px;
+    max-width: 428px;
   }
 
   .hero {
@@ -128,6 +128,7 @@
   .hero {
     height: 436px;
     max-width: 768px;
+    text-transform: capitalize;
   }
   .open-menu-btn {
     display: none;
